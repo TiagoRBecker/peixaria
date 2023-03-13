@@ -19,7 +19,7 @@ const Produtos = ()=>{
                 
                 </div>
                 <div className="w-full flex justify-center customH fMar">
-                  <img src="assets/fmar.jpg" alt="frutos do mar" className="fImgReceita"/>
+                  <img src="assets/mar.jpg" alt="frutos do mar" className="fImgReceita"/>
                   <div className="textProdutos ">
                    
                     <button className="btnClass " >CONFIRA</button>
