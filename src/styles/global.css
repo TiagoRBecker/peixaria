@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.customH{
+    height: 600px;
+}
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+.carCustom{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+   
+}
+.cItem{
+    height: 85vh;
+   
+    
+
+}
+.cImg{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+.cCaption{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    position: absolute;
+    top: 35vh;
+ 
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px;
+    gap: 15px;
+   
+     
+}
+.btnClass{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#4B0082;
+    
+    font-size: 1em;
+    color: #ccc;
+    transition: all ease-in-out 1s;
+    border-radius: 80px;
+    font-weight: bold;
+    outline: none;
+
+}
+.btnClass:hover{
+    transition: all ease-in-out 1s;
+    background-color: #8B008B;
+}
+@media screen and (max-width:690px) {
+    .cCaption{
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .cItem{
+        width: 100%;
+       margin-top: 50px;
+       
+    }
+    .cImg{
+        width: 100%;
+        height:80%;
+        object-fit: fill;
+
+        
+    }
+    .carCustom{
+        width: 100%;
+        background-color: #ccc;
+    }
+   
+   
+}
+.fMar{
+    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    position: relative;
+    
+    
+}
+
+.fReceita{
+    width: 100%;
+    height: 100%;
+   position: relative;
+   
+   
+}
+.fImgReceita{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    transition: all ease-in-out 0.9s;
+    filter: brightness(30%);
+ 
+}
+.fImgReceita:hover{
+    filter: brightness(90%);
+    transform: scale(1.1);
+    color: #4B0082;
+}
+.textProdutos{
+    position: absolute;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 250px;
+    z-index: 999;
+  
+    
+}
+@media screen and (max-width:600px) {
+    .textProdutos{
+        position: absolute;
+        color: #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        top: 85px;
+        z-index: 999;
+      
+        
+    }
+    
+}
+@media screen and (max-width:450px) {
+    h2{
+        font-size: 30px !important;
+    }
+    
+}
+.btnTeste{
+    transform: translateY(0px);
+    transition: all ease-in-out 1s;
+    animation: flutuante 4s ease-in-out 1s  infinite;
+    position: absolute;
+    color: #ccc;
+}
+.btnTeste:hover{
+    animation-play-state: paused;
+}
+@keyframes flutuante{
+    0% ,100%  {
+        transform:translateY(0px);
+    }
+     
+    50%  {
+        transform:translateY(-10px)
+    }
+    
+  
+}
+.wave-1{
+    animation: wave-1 3s ease-in-out  infinite alternate;
+}
+@keyframes wave-1{
+    from{
+        transform: translateX(30px);
+    }
+}
+.wave-2{
+    animation: wave-2 3s 1.2s ease-in-out  infinite alternate;
+}
+@keyframes wave-2{
+    from{
+        transform: translateX(-30px);
+    }
+}
+.wave-3{
+   
+    animation: wave-3 3s 0.7s ease-in-out infinite alternate;
+}
+@keyframes wave-3{
+    from{
+        transform: translateX(-15px);
+    }
+}
+.bgTeste{
+    background-color: #57a7b3;
+}
+
+.boxImgProdutos{
+    background-image: url("/public/assets/boxProduto3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+
