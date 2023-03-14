@@ -1,10 +1,13 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+const teste =()=>{
+  console.log("ok")
+}
 export const Header = () => {
   return (
     <section>
-    <header className="w-full h-24 relative bg-blue-900">
+    <header className="w-full h-24 relative bg-[#0C2340]">
     
        <div className="w-full flex items-center justify-center py-2">
           <img src="/assets/logo.png" alt="Logo" className="w-11 h-11" />
@@ -13,19 +16,19 @@ export const Header = () => {
         <nav className=" w-full flex items-center justify-center">
             <ul className="flex gap-5">
                 <li className="">
-                    <a className="no-underline text-sm uppercase text-white font-bold" href="#">Home</a>
+                    <AnchorLink className="no-underline text-sm uppercase text-white font-bold" href="#">Home</AnchorLink>
                     
                 </li>
                 <li>
-                    <a className="no-underline text-sm uppercase text-white font-bold" href="#">Produtos</a>
+                   <AnchorLink className="no-underline text-sm uppercase text-white font-bold" href="#produtos" offset={-100}>Produtos</AnchorLink>
                     
                 </li>
                 <li>
-                    <a className="no-underline text-sm uppercase text-white font-bold"  href="#">Receitas</a>
+                <AnchorLink className="no-underline text-sm uppercase text-white font-bold"  href="#receitas" offset={-100}>Receitas</AnchorLink>
                     
                 </li>
                 <li>
-                    <a className="no-underline text-sm uppercase text-white font-bold" href="#">Contato</a>
+                    <AnchorLink className="no-underline text-sm uppercase text-white font-bold" href="#contato" >Contato</AnchorLink>
                     
                 </li>
             </ul>
