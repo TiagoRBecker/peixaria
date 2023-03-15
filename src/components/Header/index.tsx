@@ -49,7 +49,7 @@ export const Header = () => {
             
             <h3 className="text-4xl txt-white font-bold ">CAMARÃO LIMPO</h3>
            
-           <p className="text-left text-xl ">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
+           <p className="text-left text-xl alter:text-center">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
            <div className="w-full flex items-center justify-center">
            <button className="btnClass " >CONFIRA</button>
            </div>
@@ -64,9 +64,9 @@ export const Header = () => {
           />
           <Carousel.Caption className="cCaption">
             
-            <h3 className="text-4xl txt-white font-bold ">PEIXES FRESCOS</h3>
+            <h3 className="text-4xl txt-white font-bold alter:text-center  ">PEIXES FRESCOS</h3>
            
-           <p className="text-left text-xl ">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
+           <p className="text-left text-xl alter:text-center">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
            <div className="w-full flex items-center justify-center">
            <button className="btnClass " >CONFIRA</button>
            </div>
@@ -82,9 +82,9 @@ export const Header = () => {
           />
           <Carousel.Caption className="cCaption">
             
-            <h3 className="text-4xl txt-white font-bold ">RECEITAS SABOROSAS  </h3>
+            <h3 className="text-4xl txt-white font-bold alter:text-center">RECEITAS SABOROSAS  </h3>
            
-           <p className="text-left text-xl ">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
+           <p className="text-left text-xl alter:text-center ">No conforto do seu lar, oferecendo praticidade para o seu dia a dia!</p>
            <div className="w-full flex items-center justify-center">
            <button className="btnClass " >CONFIRA</button>
            </div>

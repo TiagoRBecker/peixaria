@@ -11,7 +11,7 @@ const Servicos = () => {
               <div className="w-12 h-12 bg-blue-600 border-2 border-white rounded-full flex items-center justify-center ">
                 <img src="assets/location.png" alt="Location" width={28} height={28} />
               </div>
-              <div className="">
+              <div className="alter:flex flex-col w-80 ">
                 <h2 className="text-white font-bold text-xl">Endereço</h2>
                 <p className="text-white text-lg">Rua: xxxxxxxxxxxxxxxxxxxxxx</p>
                 <p className="text-white text-lg">Bairro:xxxxxxxxxxxxxxxxxxxx</p>
@@ -22,7 +22,7 @@ const Servicos = () => {
               <div className="w-12 h-12 bg-blue-600 border-2 border-white rounded-full flex items-center justify-center">
                 <img src="assets/phone.png" alt="Telefone"  width={28} height={28} />
               </div>
-              <div className="">
+              <div className="alter:flex flex-col w-80  ">
                 <h2 className="text-white font-bold text-xl">Telefone</h2>
                 <p className="text-white text-lg alter:w-72">(51): xxx-xxx-xxx</p>
                 <p className="text-white text-lg">(51): xxx-xxx-xxx</p>
@@ -33,7 +33,7 @@ const Servicos = () => {
               <div className="w-12 h-12 bg-blue-600 border-2 border-white rounded-full flex items-center justify-center">
                 <img src="assets/email.png" alt="E-mail"  width={28} height={28}/>
               </div>
-              <div className="">
+              <div className="alter:flex flex-col w-80">
                 <h2 className="text-white font-bold text-xl">E-mail</h2>
                 <p className="text-white text-base">(51)E-mail:tester@gmail.com</p>
               

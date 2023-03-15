@@ -2,7 +2,7 @@
 
 const SocialIcons = ()=>{
     return(
-        <section className="w-full h-96 flex flex-col items-center justify-center gap-2">
+        <section className="w-full h-full flex flex-col items-center justify-center gap-2 py-12">
             <h1 className="text-[#fff] font-bold text-4xl py-5 alter:text-3xl">SIGA-NOS</h1>
             <p className="w-9/12 text-center text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id dolore illum repudiandae, mollitia ipsam distinctio corrupti delectus quisquam officiis iure aliquid facilis adipisci repellat. Modi autem corrupti eveniet voluptatem.</p>
              <div className="flex pt-4">
